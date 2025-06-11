@@ -33,28 +33,8 @@ class Screen:
         self.call_all_classes()
         
         turtle.done()
-        
-
-       
     
-    # def scoreboard(self):
-       
-    #     self.penn=turtle.Turtle()
-    #     self.penn.hideturtle()
-    #     self.penn.speed(100)
-    #     self.penn.goto(-220,340)
-    #     self.penn.color("Lime")
-    #     self.penn.write(f"Score:{Snake.snk_score}",font=("E",37))
-        
-
-    #     self.penn_2=turtle.Turtle()
-    #     self.penn_2.hideturtle()
-    #     self.penn_2.speed(100)
-    #     self.penn_2.goto(100,340)
-    #     self.penn_2.color("Cyan")
-    #     self.penn_2.clear()
-    #     self.penn_2.write(f"Score:{Snake.snk2_score}",font=("E",37))
-        
+    
     def update_score(self):
         self.penn.clear()
         self.penn.write(f"Score:{Snake.snk_score}",font=("Small Fonts",37))
